@@ -7,7 +7,7 @@ void sort(int array[], int size);
 int main(int argc, char const *argv[])
 {
     auto start = high_resolution_clock::now();
-    int array[]{5, 4, 2, 1, 7};
+    int array[]{5, 3, 7, 6, 56, 8, 4, 9, 7,15,3,1,29,44};
     sort(array, sizeof(array) / sizeof(int));
     auto stop = high_resolution_clock::now();
     auto duration = duration_cast<microseconds>(stop - start);
